@@ -1,125 +1,201 @@
-<svg width="860" height="382" viewBox="0 0 860 382" xmlns="http://www.w3.org/2000/svg">
-<rect width="860" height="382" fill="#06060a" rx="8"/>
-<text x="430" y="18" text-anchor="middle" style="font-family:Courier New,monospace;font-size:9px;fill:#4e4c48;letter-spacing:0.45em">DSA PROFICIENCY  ·  500+ PROBLEMS SOLVED</text>
-<text x="844" y="26" text-anchor="end" style="font-family:Impact,Arial,sans-serif;font-size:36px;fill:#c9a84c;opacity:0.08">500+</text>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.15s" fill="freeze"/>
-  <text x="188" y="50" text-anchor="end" style="font-family:Courier New,monospace;font-size:10px;fill:#9a9490;letter-spacing:0.03em">Arrays & Hashing</text>
-  <rect x="196" y="40" width="608" height="8" fill="#111118" rx="4"/>
-  <rect x="196" y="40" width="0" height="8" fill="#c9a84c" rx="4" opacity="0.9">
-    <animate attributeName="width" from="0" to="559" dur="0.55s" begin="0.15s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
-  </rect>
-  <text x="762" y="50" style="font-family:Courier New,monospace;font-size:9px;fill:#c9a84c;opacity:0">
-    92%
-    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.60s" fill="freeze"/>
-  </text>
-</g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.23s" fill="freeze"/>
-  <text x="188" y="83" text-anchor="end" style="font-family:Courier New,monospace;font-size:10px;fill:#9a9490;letter-spacing:0.03em">Two Pointers</text>
-  <rect x="196" y="73" width="608" height="8" fill="#111118" rx="4"/>
-  <rect x="196" y="73" width="0" height="8" fill="#e8c870" rx="4" opacity="0.9">
-    <animate attributeName="width" from="0" to="535" dur="0.55s" begin="0.23s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
-  </rect>
-  <text x="738" y="83" style="font-family:Courier New,monospace;font-size:9px;fill:#e8c870;opacity:0">
-    88%
-    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.68s" fill="freeze"/>
-  </text>
-</g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.31s" fill="freeze"/>
-  <text x="188" y="116" text-anchor="end" style="font-family:Courier New,monospace;font-size:10px;fill:#9a9490;letter-spacing:0.03em">Sliding Window</text>
-  <rect x="196" y="106" width="608" height="8" fill="#111118" rx="4"/>
-  <rect x="196" y="106" width="0" height="8" fill="#3ddc84" rx="4" opacity="0.9">
-    <animate attributeName="width" from="0" to="516" dur="0.55s" begin="0.31s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
-  </rect>
-  <text x="719" y="116" style="font-family:Courier New,monospace;font-size:9px;fill:#3ddc84;opacity:0">
-    85%
-    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.76s" fill="freeze"/>
-  </text>
-</g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.39s" fill="freeze"/>
-  <text x="188" y="149" text-anchor="end" style="font-family:Courier New,monospace;font-size:10px;fill:#9a9490;letter-spacing:0.03em">Binary Search</text>
-  <rect x="196" y="139" width="608" height="8" fill="#111118" rx="4"/>
-  <rect x="196" y="139" width="0" height="8" fill="#4bc8c8" rx="4" opacity="0.9">
-    <animate attributeName="width" from="0" to="504" dur="0.55s" begin="0.39s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
-  </rect>
-  <text x="707" y="149" style="font-family:Courier New,monospace;font-size:9px;fill:#4bc8c8;opacity:0">
-    83%
-    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.84s" fill="freeze"/>
-  </text>
-</g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.47s" fill="freeze"/>
-  <text x="188" y="182" text-anchor="end" style="font-family:Courier New,monospace;font-size:10px;fill:#9a9490;letter-spacing:0.03em">Linked Lists</text>
-  <rect x="196" y="172" width="608" height="8" fill="#111118" rx="4"/>
-  <rect x="196" y="172" width="0" height="8" fill="#5588e0" rx="4" opacity="0.9">
-    <animate attributeName="width" from="0" to="486" dur="0.55s" begin="0.47s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
-  </rect>
-  <text x="689" y="182" style="font-family:Courier New,monospace;font-size:9px;fill:#5588e0;opacity:0">
-    80%
-    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.92s" fill="freeze"/>
-  </text>
-</g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.55s" fill="freeze"/>
-  <text x="188" y="215" text-anchor="end" style="font-family:Courier New,monospace;font-size:10px;fill:#9a9490;letter-spacing:0.03em">Trees & Tries</text>
-  <rect x="196" y="205" width="608" height="8" fill="#111118" rx="4"/>
-  <rect x="196" y="205" width="0" height="8" fill="#9966cc" rx="4" opacity="0.9">
-    <animate attributeName="width" from="0" to="474" dur="0.55s" begin="0.55s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
-  </rect>
-  <text x="677" y="215" style="font-family:Courier New,monospace;font-size:9px;fill:#9966cc;opacity:0">
-    78%
-    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.00s" fill="freeze"/>
-  </text>
-</g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.63s" fill="freeze"/>
-  <text x="188" y="248" text-anchor="end" style="font-family:Courier New,monospace;font-size:10px;fill:#9a9490;letter-spacing:0.03em">Graphs (BFS/DFS)</text>
-  <rect x="196" y="238" width="608" height="8" fill="#111118" rx="4"/>
-  <rect x="196" y="238" width="0" height="8" fill="#c9a84c" rx="4" opacity="0.9">
-    <animate attributeName="width" from="0" to="498" dur="0.55s" begin="0.63s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
-  </rect>
-  <text x="701" y="248" style="font-family:Courier New,monospace;font-size:9px;fill:#c9a84c;opacity:0">
-    82%
-    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.08s" fill="freeze"/>
-  </text>
-</g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.71s" fill="freeze"/>
-  <text x="188" y="281" text-anchor="end" style="font-family:Courier New,monospace;font-size:10px;fill:#9a9490;letter-spacing:0.03em">Dynamic Programming</text>
-  <rect x="196" y="271" width="608" height="8" fill="#111118" rx="4"/>
-  <rect x="196" y="271" width="0" height="8" fill="#e8c870" rx="4" opacity="0.9">
-    <animate attributeName="width" from="0" to="456" dur="0.55s" begin="0.71s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
-  </rect>
-  <text x="659" y="281" style="font-family:Courier New,monospace;font-size:9px;fill:#e8c870;opacity:0">
-    75%
-    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.16s" fill="freeze"/>
-  </text>
-</g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.79s" fill="freeze"/>
-  <text x="188" y="314" text-anchor="end" style="font-family:Courier New,monospace;font-size:10px;fill:#9a9490;letter-spacing:0.03em">Heap / Priority Q</text>
-  <rect x="196" y="304" width="608" height="8" fill="#111118" rx="4"/>
-  <rect x="196" y="304" width="0" height="8" fill="#3ddc84" rx="4" opacity="0.9">
-    <animate attributeName="width" from="0" to="468" dur="0.55s" begin="0.79s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
-  </rect>
-  <text x="671" y="314" style="font-family:Courier New,monospace;font-size:9px;fill:#3ddc84;opacity:0">
-    77%
-    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.24s" fill="freeze"/>
-  </text>
-</g>
-<g opacity="0">
-  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.87s" fill="freeze"/>
-  <text x="188" y="347" text-anchor="end" style="font-family:Courier New,monospace;font-size:10px;fill:#9a9490;letter-spacing:0.03em">Backtracking</text>
-  <rect x="196" y="337" width="608" height="8" fill="#111118" rx="4"/>
-  <rect x="196" y="337" width="0" height="8" fill="#4bc8c8" rx="4" opacity="0.9">
-    <animate attributeName="width" from="0" to="437" dur="0.55s" begin="0.87s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
-  </rect>
-  <text x="640" y="347" style="font-family:Courier New,monospace;font-size:9px;fill:#4bc8c8;opacity:0">
-    72%
-    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.32s" fill="freeze"/>
-  </text>
-</g>
+<svg width="860" height="400" viewBox="0 0 860 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="400" fill="#06060a" rx="8"/>
+  
+  <!-- Title -->
+  <text x="430" y="20" text-anchor="middle"
+    style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.4em;fill:#4e4c48">DSA PROFICIENCY  ·  500+ PROBLEMS SOLVED</text>
+  
+  <!-- 500+ big number -->
+  <text x="830" y="30" text-anchor="end"
+    style="font-family:Impact,'Arial Black',sans-serif;font-size:28px;fill:#c9a84c;opacity:0.15">500+</text>
+  <!-- Arrays & Hashing -->
+  <g>
+    
+    <!-- Label -->
+    <text x="170" y="54" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Arrays & Hashing</text>
+    
+    <!-- Track -->
+    <rect x="180" y="44" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="44" width="552" height="8" fill="#c9a84c" rx="4" opacity="0.85"/>
+    
+    <!-- Pct label -->
+    <text x="740" y="54"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;letter-spacing:0.05em">
+      92%
+    </text>
+  </g>
+  <!-- Two Pointers -->
+  <g>
+    
+    <!-- Label -->
+    <text x="170" y="88" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Two Pointers</text>
+    
+    <!-- Track -->
+    <rect x="180" y="78" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="78" width="528" height="8" fill="#e8c870" rx="4" opacity="0.85"/>
+    
+    <!-- Pct label -->
+    <text x="716" y="88"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#e8c870;letter-spacing:0.05em">
+      88%
+    </text>
+  </g>
+  <!-- Sliding Window -->
+  <g>
+    
+    <!-- Label -->
+    <text x="170" y="122" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Sliding Window</text>
+    
+    <!-- Track -->
+    <rect x="180" y="112" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="112" width="510" height="8" fill="#3ddc84" rx="4" opacity="0.85"/>
+    
+    <!-- Pct label -->
+    <text x="698" y="122"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#3ddc84;letter-spacing:0.05em">
+      85%
+    </text>
+  </g>
+  <!-- Binary Search -->
+  <g>
+    
+    <!-- Label -->
+    <text x="170" y="156" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Binary Search</text>
+    
+    <!-- Track -->
+    <rect x="180" y="146" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="146" width="498" height="8" fill="#4bc8c8" rx="4" opacity="0.85"/>
+    
+    <!-- Pct label -->
+    <text x="686" y="156"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#4bc8c8;letter-spacing:0.05em">
+      83%
+    </text>
+  </g>
+  <!-- Linked Lists -->
+  <g>
+    
+    <!-- Label -->
+    <text x="170" y="190" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Linked Lists</text>
+    
+    <!-- Track -->
+    <rect x="180" y="180" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="180" width="480" height="8" fill="#5588e0" rx="4" opacity="0.85"/>
+    
+    <!-- Pct label -->
+    <text x="668" y="190"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#5588e0;letter-spacing:0.05em">
+      80%
+    </text>
+  </g>
+  <!-- Trees & Tries -->
+  <g>
+    
+    <!-- Label -->
+    <text x="170" y="224" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Trees & Tries</text>
+    
+    <!-- Track -->
+    <rect x="180" y="214" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="214" width="468" height="8" fill="#9966cc" rx="4" opacity="0.85"/>
+    
+    <!-- Pct label -->
+    <text x="656" y="224"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#9966cc;letter-spacing:0.05em">
+      78%
+    </text>
+  </g>
+  <!-- Graphs (BFS/DFS) -->
+  <g>
+    
+    <!-- Label -->
+    <text x="170" y="258" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Graphs (BFS/DFS)</text>
+    
+    <!-- Track -->
+    <rect x="180" y="248" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="248" width="492" height="8" fill="#c9a84c" rx="4" opacity="0.85"/>
+    
+    <!-- Pct label -->
+    <text x="680" y="258"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;letter-spacing:0.05em">
+      82%
+    </text>
+  </g>
+  <!-- Dynamic Programming -->
+  <g>
+    
+    <!-- Label -->
+    <text x="170" y="292" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Dynamic Programming</text>
+    
+    <!-- Track -->
+    <rect x="180" y="282" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="282" width="450" height="8" fill="#e8c870" rx="4" opacity="0.85"/>
+    
+    <!-- Pct label -->
+    <text x="638" y="292"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#e8c870;letter-spacing:0.05em">
+      75%
+    </text>
+  </g>
+  <!-- Heap / Priority Q -->
+  <g>
+    
+    <!-- Label -->
+    <text x="170" y="326" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Heap / Priority Q</text>
+    
+    <!-- Track -->
+    <rect x="180" y="316" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="316" width="462" height="8" fill="#3ddc84" rx="4" opacity="0.85"/>
+    
+    <!-- Pct label -->
+    <text x="650" y="326"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#3ddc84;letter-spacing:0.05em">
+      77%
+    </text>
+  </g>
+  <!-- Backtracking -->
+  <g>
+    
+    <!-- Label -->
+    <text x="170" y="360" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Backtracking</text>
+    
+    <!-- Track -->
+    <rect x="180" y="350" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="350" width="432" height="8" fill="#4bc8c8" rx="4" opacity="0.85"/>
+    
+    <!-- Pct label -->
+    <text x="620" y="360"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#4bc8c8;letter-spacing:0.05em">
+      72%
+    </text>
+  </g>
 </svg>
