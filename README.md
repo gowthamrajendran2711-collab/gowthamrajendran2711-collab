@@ -55,7 +55,7 @@ gowtham = {
 <!-- ═══════════════════════════════════════════════
      ACHIEVEMENTS — ANIMATED SVG CARDS
 ════════════════════════════════════════════════ -->
-
+## 📊
 <div align="center">
 
 ![Achievements](./achievements.svg)
@@ -81,6 +81,7 @@ gowtham = {
      DSA PROFICIENCY — ANIMATED BAR CHART
 ════════════════════════════════════════════════ -->
 
+## ⌗DSA
 <div align="center">
 
 ![DSA Proficiency](./dsa_bars.svg)
