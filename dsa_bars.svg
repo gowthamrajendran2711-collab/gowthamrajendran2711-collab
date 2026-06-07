@@ -9,7 +9,8 @@
   <text x="830" y="30" text-anchor="end"
     style="font-family:Impact,'Arial Black',sans-serif;font-size:28px;fill:#c9a84c;opacity:0.15">500+</text>
   <!-- Arrays & Hashing -->
-  <g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.20s" fill="freeze"/>
     
     <!-- Label -->
     <text x="170" y="54" text-anchor="end"
@@ -19,16 +20,20 @@
     <rect x="180" y="44" width="600" height="8" fill="#111118" rx="4"/>
     
     <!-- Bar -->
-    <rect x="180" y="44" width="552" height="8" fill="#c9a84c" rx="4" opacity="0.85"/>
+    <rect x="180" y="44" width="0" height="8" fill="#c9a84c" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="552" dur="0.6s" begin="0.20s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
     
     <!-- Pct label -->
     <text x="740" y="54"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;letter-spacing:0.05em">
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;letter-spacing:0.05em;opacity:0">
       92%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.70s" fill="freeze"/>
     </text>
   </g>
   <!-- Two Pointers -->
-  <g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.28s" fill="freeze"/>
     
     <!-- Label -->
     <text x="170" y="88" text-anchor="end"
@@ -38,16 +43,20 @@
     <rect x="180" y="78" width="600" height="8" fill="#111118" rx="4"/>
     
     <!-- Bar -->
-    <rect x="180" y="78" width="528" height="8" fill="#e8c870" rx="4" opacity="0.85"/>
+    <rect x="180" y="78" width="0" height="8" fill="#e8c870" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="528" dur="0.6s" begin="0.28s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
     
     <!-- Pct label -->
     <text x="716" y="88"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#e8c870;letter-spacing:0.05em">
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#e8c870;letter-spacing:0.05em;opacity:0">
       88%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.78s" fill="freeze"/>
     </text>
   </g>
   <!-- Sliding Window -->
-  <g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.36s" fill="freeze"/>
     
     <!-- Label -->
     <text x="170" y="122" text-anchor="end"
@@ -57,16 +66,20 @@
     <rect x="180" y="112" width="600" height="8" fill="#111118" rx="4"/>
     
     <!-- Bar -->
-    <rect x="180" y="112" width="510" height="8" fill="#3ddc84" rx="4" opacity="0.85"/>
+    <rect x="180" y="112" width="0" height="8" fill="#3ddc84" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="510" dur="0.6s" begin="0.36s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
     
     <!-- Pct label -->
     <text x="698" y="122"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#3ddc84;letter-spacing:0.05em">
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#3ddc84;letter-spacing:0.05em;opacity:0">
       85%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.86s" fill="freeze"/>
     </text>
   </g>
   <!-- Binary Search -->
-  <g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.44s" fill="freeze"/>
     
     <!-- Label -->
     <text x="170" y="156" text-anchor="end"
@@ -76,16 +89,20 @@
     <rect x="180" y="146" width="600" height="8" fill="#111118" rx="4"/>
     
     <!-- Bar -->
-    <rect x="180" y="146" width="498" height="8" fill="#4bc8c8" rx="4" opacity="0.85"/>
+    <rect x="180" y="146" width="0" height="8" fill="#4bc8c8" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="498" dur="0.6s" begin="0.44s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
     
     <!-- Pct label -->
     <text x="686" y="156"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#4bc8c8;letter-spacing:0.05em">
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#4bc8c8;letter-spacing:0.05em;opacity:0">
       83%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.94s" fill="freeze"/>
     </text>
   </g>
   <!-- Linked Lists -->
-  <g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.52s" fill="freeze"/>
     
     <!-- Label -->
     <text x="170" y="190" text-anchor="end"
@@ -95,16 +112,20 @@
     <rect x="180" y="180" width="600" height="8" fill="#111118" rx="4"/>
     
     <!-- Bar -->
-    <rect x="180" y="180" width="480" height="8" fill="#5588e0" rx="4" opacity="0.85"/>
+    <rect x="180" y="180" width="0" height="8" fill="#5588e0" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="480" dur="0.6s" begin="0.52s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
     
     <!-- Pct label -->
     <text x="668" y="190"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#5588e0;letter-spacing:0.05em">
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#5588e0;letter-spacing:0.05em;opacity:0">
       80%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.02s" fill="freeze"/>
     </text>
   </g>
   <!-- Trees & Tries -->
-  <g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.60s" fill="freeze"/>
     
     <!-- Label -->
     <text x="170" y="224" text-anchor="end"
@@ -114,16 +135,20 @@
     <rect x="180" y="214" width="600" height="8" fill="#111118" rx="4"/>
     
     <!-- Bar -->
-    <rect x="180" y="214" width="468" height="8" fill="#9966cc" rx="4" opacity="0.85"/>
+    <rect x="180" y="214" width="0" height="8" fill="#9966cc" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="468" dur="0.6s" begin="0.60s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
     
     <!-- Pct label -->
     <text x="656" y="224"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#9966cc;letter-spacing:0.05em">
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#9966cc;letter-spacing:0.05em;opacity:0">
       78%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.10s" fill="freeze"/>
     </text>
   </g>
   <!-- Graphs (BFS/DFS) -->
-  <g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.68s" fill="freeze"/>
     
     <!-- Label -->
     <text x="170" y="258" text-anchor="end"
@@ -133,16 +158,20 @@
     <rect x="180" y="248" width="600" height="8" fill="#111118" rx="4"/>
     
     <!-- Bar -->
-    <rect x="180" y="248" width="492" height="8" fill="#c9a84c" rx="4" opacity="0.85"/>
+    <rect x="180" y="248" width="0" height="8" fill="#c9a84c" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="492" dur="0.6s" begin="0.68s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
     
     <!-- Pct label -->
     <text x="680" y="258"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;letter-spacing:0.05em">
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;letter-spacing:0.05em;opacity:0">
       82%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.18s" fill="freeze"/>
     </text>
   </g>
   <!-- Dynamic Programming -->
-  <g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.76s" fill="freeze"/>
     
     <!-- Label -->
     <text x="170" y="292" text-anchor="end"
@@ -152,16 +181,20 @@
     <rect x="180" y="282" width="600" height="8" fill="#111118" rx="4"/>
     
     <!-- Bar -->
-    <rect x="180" y="282" width="450" height="8" fill="#e8c870" rx="4" opacity="0.85"/>
+    <rect x="180" y="282" width="0" height="8" fill="#e8c870" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="450" dur="0.6s" begin="0.76s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
     
     <!-- Pct label -->
     <text x="638" y="292"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#e8c870;letter-spacing:0.05em">
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#e8c870;letter-spacing:0.05em;opacity:0">
       75%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.26s" fill="freeze"/>
     </text>
   </g>
   <!-- Heap / Priority Q -->
-  <g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.84s" fill="freeze"/>
     
     <!-- Label -->
     <text x="170" y="326" text-anchor="end"
@@ -171,16 +204,20 @@
     <rect x="180" y="316" width="600" height="8" fill="#111118" rx="4"/>
     
     <!-- Bar -->
-    <rect x="180" y="316" width="462" height="8" fill="#3ddc84" rx="4" opacity="0.85"/>
+    <rect x="180" y="316" width="0" height="8" fill="#3ddc84" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="462" dur="0.6s" begin="0.84s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
     
     <!-- Pct label -->
     <text x="650" y="326"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#3ddc84;letter-spacing:0.05em">
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#3ddc84;letter-spacing:0.05em;opacity:0">
       77%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.34s" fill="freeze"/>
     </text>
   </g>
   <!-- Backtracking -->
-  <g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.92s" fill="freeze"/>
     
     <!-- Label -->
     <text x="170" y="360" text-anchor="end"
@@ -190,12 +227,15 @@
     <rect x="180" y="350" width="600" height="8" fill="#111118" rx="4"/>
     
     <!-- Bar -->
-    <rect x="180" y="350" width="432" height="8" fill="#4bc8c8" rx="4" opacity="0.85"/>
+    <rect x="180" y="350" width="0" height="8" fill="#4bc8c8" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="432" dur="0.6s" begin="0.92s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
     
     <!-- Pct label -->
     <text x="620" y="360"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#4bc8c8;letter-spacing:0.05em">
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#4bc8c8;letter-spacing:0.05em;opacity:0">
       72%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.42s" fill="freeze"/>
     </text>
   </g>
 </svg>
