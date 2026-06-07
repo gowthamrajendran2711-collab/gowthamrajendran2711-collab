@@ -244,15 +244,6 @@ Qdrant: 8.2K insert/s · 12ms P99 · 98.7% R@10
 
 ## 📊 GitHub Stats
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gowthamrajendran2711-collab&show_icons=true&theme=dark&bg_color=06060a&title_color=c9a84c&icon_color=c9a84c&text_color=e8e4dd&border_color=1f1f2e&hide_border=false&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gowthamrajendran2711-collab&layout=compact&theme=dark&bg_color=06060a&title_color=c9a84c&text_color=e8e4dd&border_color=1f1f2e&langs_count=8)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=gowthamrajendran2711-collab&theme=dark&background=06060a&border=1f1f2e&ring=c9a84c&fire=e8c870&currStreakLabel=c9a84c&sideLabels=9a9490&dates=4e4c48)
-
-</div>
 
 ---
 
