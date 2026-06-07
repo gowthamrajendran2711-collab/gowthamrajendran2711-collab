@@ -1,0 +1,157 @@
+<svg width="858" height="270" viewBox="0 0 858 270" xmlns="http://www.w3.org/2000/svg">
+  <rect width="858" height="270" fill="#06060a" rx="8"/>
+  <text x="429" y="16" text-anchor="middle"
+    style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.4em;fill:#4e4c48">ACHIEVEMENTS</text>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.1s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0,12" to="0,0" dur="0.4s" begin="0.1s" fill="freeze"/>
+    
+    <rect x="20" y="34" width="200" height="100" fill="#111118" rx="4"/>
+    <rect x="20" y="34" width="3" height="100" fill="#c9a84c" rx="2"/>
+    
+    <!-- Value -->
+    <text x="40" y="78"
+      style="font-family:Impact,'Arial Black',sans-serif;font-size:34px;fill:#c9a84c;letter-spacing:0.02em">12,400</text>
+    
+    <!-- Unit -->
+    <text x="40" y="96"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#9a9490;letter-spacing:0.2em;text-transform:uppercase">TOK/S</text>
+    
+    <!-- Desc -->
+    <text x="40" y="114"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#4e4c48;letter-spacing:0.05em">TurboServe LLM</text>
+  </g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.2s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0,12" to="0,0" dur="0.4s" begin="0.2s" fill="freeze"/>
+    
+    <rect x="226" y="34" width="200" height="100" fill="#111118" rx="4"/>
+    <rect x="226" y="34" width="3" height="100" fill="#e8c870" rx="2"/>
+    
+    <!-- Value -->
+    <text x="246" y="78"
+      style="font-family:Impact,'Arial Black',sans-serif;font-size:34px;fill:#e8c870;letter-spacing:0.02em">94.2%</text>
+    
+    <!-- Unit -->
+    <text x="246" y="96"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#9a9490;letter-spacing:0.2em;text-transform:uppercase">FAITHFULNESS</text>
+    
+    <!-- Desc -->
+    <text x="246" y="114"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#4e4c48;letter-spacing:0.05em">NeuralRAG RAGAS</text>
+  </g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.3s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0,12" to="0,0" dur="0.4s" begin="0.3s" fill="freeze"/>
+    
+    <rect x="432" y="34" width="200" height="100" fill="#111118" rx="4"/>
+    <rect x="432" y="34" width="3" height="100" fill="#3ddc84" rx="2"/>
+    
+    <!-- Value -->
+    <text x="452" y="78"
+      style="font-family:Impact,'Arial Black',sans-serif;font-size:34px;fill:#3ddc84;letter-spacing:0.02em">97.3%</text>
+    
+    <!-- Unit -->
+    <text x="452" y="96"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#9a9490;letter-spacing:0.2em;text-transform:uppercase">PII RECALL</text>
+    
+    <!-- Desc -->
+    <text x="452" y="114"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#4e4c48;letter-spacing:0.05em">GuardRail Safety</text>
+  </g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.4s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0,12" to="0,0" dur="0.4s" begin="0.4s" fill="freeze"/>
+    
+    <rect x="638" y="34" width="200" height="100" fill="#111118" rx="4"/>
+    <rect x="638" y="34" width="3" height="100" fill="#4bc8c8" rx="2"/>
+    
+    <!-- Value -->
+    <text x="658" y="78"
+      style="font-family:Impact,'Arial Black',sans-serif;font-size:34px;fill:#4bc8c8;letter-spacing:0.02em">500+</text>
+    
+    <!-- Unit -->
+    <text x="658" y="96"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#9a9490;letter-spacing:0.2em;text-transform:uppercase">DSA SOLVED</text>
+    
+    <!-- Desc -->
+    <text x="658" y="114"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#4e4c48;letter-spacing:0.05em">LeetCode + HackerRank</text>
+  </g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0,12" to="0,0" dur="0.4s" begin="0.5s" fill="freeze"/>
+    
+    <rect x="20" y="140" width="200" height="100" fill="#111118" rx="4"/>
+    <rect x="20" y="140" width="3" height="100" fill="#5588e0" rx="2"/>
+    
+    <!-- Value -->
+    <text x="40" y="184"
+      style="font-family:Impact,'Arial Black',sans-serif;font-size:34px;fill:#5588e0;letter-spacing:0.02em">3×</text>
+    
+    <!-- Unit -->
+    <text x="40" y="202"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#9a9490;letter-spacing:0.2em;text-transform:uppercase">TRAFFIC SCALED</text>
+    
+    <!-- Desc -->
+    <text x="40" y="220"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#4e4c48;letter-spacing:0.05em">Nitro Solutions</text>
+  </g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.6s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0,12" to="0,0" dur="0.4s" begin="0.6s" fill="freeze"/>
+    
+    <rect x="226" y="140" width="200" height="100" fill="#111118" rx="4"/>
+    <rect x="226" y="140" width="3" height="100" fill="#9966cc" rx="2"/>
+    
+    <!-- Value -->
+    <text x="246" y="184"
+      style="font-family:Impact,'Arial Black',sans-serif;font-size:34px;fill:#9966cc;letter-spacing:0.02em">45%</text>
+    
+    <!-- Unit -->
+    <text x="246" y="202"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#9a9490;letter-spacing:0.2em;text-transform:uppercase">COST REDUCED</text>
+    
+    <!-- Desc -->
+    <text x="246" y="220"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#4e4c48;letter-spacing:0.05em">GPTQ/AWQ quant</text>
+  </g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0,12" to="0,0" dur="0.4s" begin="0.7s" fill="freeze"/>
+    
+    <rect x="432" y="140" width="200" height="100" fill="#111118" rx="4"/>
+    <rect x="432" y="140" width="3" height="100" fill="#c9a84c" rx="2"/>
+    
+    <!-- Value -->
+    <text x="452" y="184"
+      style="font-family:Impact,'Arial Black',sans-serif;font-size:34px;fill:#c9a84c;letter-spacing:0.02em">10+</text>
+    
+    <!-- Unit -->
+    <text x="452" y="202"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#9a9490;letter-spacing:0.2em;text-transform:uppercase">AI PROJECTS</text>
+    
+    <!-- Desc -->
+    <text x="452" y="220"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#4e4c48;letter-spacing:0.05em">Production grade</text>
+  </g>
+  <g opacity="0" transform="translate(0,0)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.8s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0,12" to="0,0" dur="0.4s" begin="0.8s" fill="freeze"/>
+    
+    <rect x="638" y="140" width="200" height="100" fill="#111118" rx="4"/>
+    <rect x="638" y="140" width="3" height="100" fill="#e8c870" rx="2"/>
+    
+    <!-- Value -->
+    <text x="658" y="184"
+      style="font-family:Impact,'Arial Black',sans-serif;font-size:34px;fill:#e8c870;letter-spacing:0.02em">IEEE</text>
+    
+    <!-- Unit -->
+    <text x="658" y="202"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#9a9490;letter-spacing:0.2em;text-transform:uppercase">PUBLISHED</text>
+    
+    <!-- Desc -->
+    <text x="658" y="220"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#4e4c48;letter-spacing:0.05em">Transformer LLM</text>
+  </g>
+</svg>
