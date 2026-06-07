@@ -67,8 +67,9 @@ gowtham = {
 <!-- ═══════════════════════════════════════════════
      TECH STACK — ANIMATED SKILL CARDS
 ════════════════════════════════════════════════ -->
-
+## 👨🏻‍💻 Tech Stack
 <div align="center">
+
 
 ![Tech Stack](./skills_cards.svg)
 
