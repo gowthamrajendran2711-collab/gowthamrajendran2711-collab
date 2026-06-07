@@ -1,202 +1,241 @@
-<svg width="922" height="280" viewBox="0 0 922 280" xmlns="http://www.w3.org/2000/svg">
-  <rect width="922" height="280" fill="#06060a" rx="8"/>
+<svg width="860" height="400" viewBox="0 0 860 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="400" fill="#06060a" rx="8"/>
+  
+  <!-- Title -->
+  <text x="430" y="20" text-anchor="middle"
+    style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.4em;fill:#4e4c48">DSA PROFICIENCY  ·  500+ PROBLEMS SOLVED</text>
+  
+  <!-- 500+ big number -->
+  <text x="830" y="30" text-anchor="end"
+    style="font-family:Impact,'Arial Black',sans-serif;font-size:28px;fill:#c9a84c;opacity:0.15">500+</text>
+  <!-- Arrays &amp; Hashing -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.1s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="0,20" to="0,0" dur="0.5s" begin="0.1s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.20s" fill="freeze"/>
     
-    <!-- Card -->
-    <rect x="20" y="20" width="170" height="220" fill="#111118" rx="4"/>
-    <rect x="20" y="20" width="170" height="3" fill="#c9a84c" rx="2" opacity="0.9"/>
+    <!-- Label -->
+    <text x="170" y="54" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Arrays &amp; Hashing</text>
     
-    <!-- Category label -->
-    <text x="105" y="46" text-anchor="middle"
-      style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.3em;fill:#c9a84c;text-transform:uppercase">LLM &amp; AI</text>
+    <!-- Track -->
+    <rect x="180" y="44" width="600" height="8" fill="#111118" rx="4"/>
     
-    <!-- Divider -->
-    <line x1="32" y1="52" x2="178" y2="52" stroke="#c9a84c" stroke-width="0.5" opacity="0.3"/>
-    <!-- vLLM -->
-    <rect x="32" y="59" width="146" height="18" fill="#c9a84c" rx="2" opacity="0.08"/>
-    <rect x="32" y="59" width="146" height="18" fill="none" rx="2" stroke="#c9a84c" stroke-width="0.5" opacity="0.2"/>
-    <text x="40" y="72" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">vLLM</text>
-    <!-- LangGraph -->
-    <rect x="32" y="83" width="146" height="18" fill="#c9a84c" rx="2" opacity="0.08"/>
-    <rect x="32" y="83" width="146" height="18" fill="none" rx="2" stroke="#c9a84c" stroke-width="0.5" opacity="0.2"/>
-    <text x="40" y="96" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">LangGraph</text>
-    <!-- RAG -->
-    <rect x="32" y="107" width="146" height="18" fill="#c9a84c" rx="2" opacity="0.08"/>
-    <rect x="32" y="107" width="146" height="18" fill="none" rx="2" stroke="#c9a84c" stroke-width="0.5" opacity="0.2"/>
-    <text x="40" y="120" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">RAG</text>
-    <!-- PyTorch -->
-    <rect x="32" y="131" width="146" height="18" fill="#c9a84c" rx="2" opacity="0.08"/>
-    <rect x="32" y="131" width="146" height="18" fill="none" rx="2" stroke="#c9a84c" stroke-width="0.5" opacity="0.2"/>
-    <text x="40" y="144" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">PyTorch</text>
-    <!-- RAGAS -->
-    <rect x="32" y="155" width="146" height="18" fill="#c9a84c" rx="2" opacity="0.08"/>
-    <rect x="32" y="155" width="146" height="18" fill="none" rx="2" stroke="#c9a84c" stroke-width="0.5" opacity="0.2"/>
-    <text x="40" y="168" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">RAGAS</text>
-    <!-- Transformers -->
-    <rect x="32" y="179" width="146" height="18" fill="#c9a84c" rx="2" opacity="0.08"/>
-    <rect x="32" y="179" width="146" height="18" fill="none" rx="2" stroke="#c9a84c" stroke-width="0.5" opacity="0.2"/>
-    <text x="40" y="192" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Transformers</text>
+    <!-- Bar -->
+    <rect x="180" y="44" width="0" height="8" fill="#c9a84c" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="552" dur="0.6s" begin="0.20s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
+    
+    <!-- Pct label -->
+    <text x="740" y="54"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;letter-spacing:0.05em;opacity:0">
+      92%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.70s" fill="freeze"/>
+    </text>
   </g>
+  <!-- Two Pointers -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.25s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="0,20" to="0,0" dur="0.5s" begin="0.25s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.28s" fill="freeze"/>
     
-    <!-- Card -->
-    <rect x="198" y="20" width="170" height="220" fill="#111118" rx="4"/>
-    <rect x="198" y="20" width="170" height="3" fill="#4bc8c8" rx="2" opacity="0.9"/>
+    <!-- Label -->
+    <text x="170" y="88" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Two Pointers</text>
     
-    <!-- Category label -->
-    <text x="283" y="46" text-anchor="middle"
-      style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.3em;fill:#4bc8c8;text-transform:uppercase">BACKEND</text>
+    <!-- Track -->
+    <rect x="180" y="78" width="600" height="8" fill="#111118" rx="4"/>
     
-    <!-- Divider -->
-    <line x1="210" y1="52" x2="356" y2="52" stroke="#4bc8c8" stroke-width="0.5" opacity="0.3"/>
-    <!-- FastAPI -->
-    <rect x="210" y="59" width="146" height="18" fill="#4bc8c8" rx="2" opacity="0.08"/>
-    <rect x="210" y="59" width="146" height="18" fill="none" rx="2" stroke="#4bc8c8" stroke-width="0.5" opacity="0.2"/>
-    <text x="218" y="72" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">FastAPI</text>
-    <!-- Spring Boot -->
-    <rect x="210" y="83" width="146" height="18" fill="#4bc8c8" rx="2" opacity="0.08"/>
-    <rect x="210" y="83" width="146" height="18" fill="none" rx="2" stroke="#4bc8c8" stroke-width="0.5" opacity="0.2"/>
-    <text x="218" y="96" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Spring Boot</text>
-    <!-- Redis -->
-    <rect x="210" y="107" width="146" height="18" fill="#4bc8c8" rx="2" opacity="0.08"/>
-    <rect x="210" y="107" width="146" height="18" fill="none" rx="2" stroke="#4bc8c8" stroke-width="0.5" opacity="0.2"/>
-    <text x="218" y="120" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Redis</text>
-    <!-- Kafka -->
-    <rect x="210" y="131" width="146" height="18" fill="#4bc8c8" rx="2" opacity="0.08"/>
-    <rect x="210" y="131" width="146" height="18" fill="none" rx="2" stroke="#4bc8c8" stroke-width="0.5" opacity="0.2"/>
-    <text x="218" y="144" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Kafka</text>
-    <!-- PostgreSQL -->
-    <rect x="210" y="155" width="146" height="18" fill="#4bc8c8" rx="2" opacity="0.08"/>
-    <rect x="210" y="155" width="146" height="18" fill="none" rx="2" stroke="#4bc8c8" stroke-width="0.5" opacity="0.2"/>
-    <text x="218" y="168" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">PostgreSQL</text>
-    <!-- pgvector -->
-    <rect x="210" y="179" width="146" height="18" fill="#4bc8c8" rx="2" opacity="0.08"/>
-    <rect x="210" y="179" width="146" height="18" fill="none" rx="2" stroke="#4bc8c8" stroke-width="0.5" opacity="0.2"/>
-    <text x="218" y="192" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">pgvector</text>
+    <!-- Bar -->
+    <rect x="180" y="78" width="0" height="8" fill="#e8c870" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="528" dur="0.6s" begin="0.28s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
+    
+    <!-- Pct label -->
+    <text x="716" y="88"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#e8c870;letter-spacing:0.05em;opacity:0">
+      88%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.78s" fill="freeze"/>
+    </text>
   </g>
+  <!-- Sliding Window -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.4s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="0,20" to="0,0" dur="0.5s" begin="0.4s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.36s" fill="freeze"/>
     
-    <!-- Card -->
-    <rect x="376" y="20" width="170" height="220" fill="#111118" rx="4"/>
-    <rect x="376" y="20" width="170" height="3" fill="#3ddc84" rx="2" opacity="0.9"/>
+    <!-- Label -->
+    <text x="170" y="122" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Sliding Window</text>
     
-    <!-- Category label -->
-    <text x="461" y="46" text-anchor="middle"
-      style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.3em;fill:#3ddc84;text-transform:uppercase">DATA ENG</text>
+    <!-- Track -->
+    <rect x="180" y="112" width="600" height="8" fill="#111118" rx="4"/>
     
-    <!-- Divider -->
-    <line x1="388" y1="52" x2="534" y2="52" stroke="#3ddc84" stroke-width="0.5" opacity="0.3"/>
-    <!-- Apache Spark -->
-    <rect x="388" y="59" width="146" height="18" fill="#3ddc84" rx="2" opacity="0.08"/>
-    <rect x="388" y="59" width="146" height="18" fill="none" rx="2" stroke="#3ddc84" stroke-width="0.5" opacity="0.2"/>
-    <text x="396" y="72" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Apache Spark</text>
-    <!-- Delta Lake -->
-    <rect x="388" y="83" width="146" height="18" fill="#3ddc84" rx="2" opacity="0.08"/>
-    <rect x="388" y="83" width="146" height="18" fill="none" rx="2" stroke="#3ddc84" stroke-width="0.5" opacity="0.2"/>
-    <text x="396" y="96" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Delta Lake</text>
-    <!-- Airflow -->
-    <rect x="388" y="107" width="146" height="18" fill="#3ddc84" rx="2" opacity="0.08"/>
-    <rect x="388" y="107" width="146" height="18" fill="none" rx="2" stroke="#3ddc84" stroke-width="0.5" opacity="0.2"/>
-    <text x="396" y="120" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Airflow</text>
-    <!-- Qdrant -->
-    <rect x="388" y="131" width="146" height="18" fill="#3ddc84" rx="2" opacity="0.08"/>
-    <rect x="388" y="131" width="146" height="18" fill="none" rx="2" stroke="#3ddc84" stroke-width="0.5" opacity="0.2"/>
-    <text x="396" y="144" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Qdrant</text>
-    <!-- Faust -->
-    <rect x="388" y="155" width="146" height="18" fill="#3ddc84" rx="2" opacity="0.08"/>
-    <rect x="388" y="155" width="146" height="18" fill="none" rx="2" stroke="#3ddc84" stroke-width="0.5" opacity="0.2"/>
-    <text x="396" y="168" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Faust</text>
-    <!-- FAISS -->
-    <rect x="388" y="179" width="146" height="18" fill="#3ddc84" rx="2" opacity="0.08"/>
-    <rect x="388" y="179" width="146" height="18" fill="none" rx="2" stroke="#3ddc84" stroke-width="0.5" opacity="0.2"/>
-    <text x="396" y="192" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">FAISS</text>
+    <!-- Bar -->
+    <rect x="180" y="112" width="0" height="8" fill="#3ddc84" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="510" dur="0.6s" begin="0.36s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
+    
+    <!-- Pct label -->
+    <text x="698" y="122"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#3ddc84;letter-spacing:0.05em;opacity:0">
+      85%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.86s" fill="freeze"/>
+    </text>
   </g>
+  <!-- Binary Search -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.5499999999999999s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="0,20" to="0,0" dur="0.5s" begin="0.5499999999999999s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.44s" fill="freeze"/>
     
-    <!-- Card -->
-    <rect x="554" y="20" width="170" height="220" fill="#111118" rx="4"/>
-    <rect x="554" y="20" width="170" height="3" fill="#5588e0" rx="2" opacity="0.9"/>
+    <!-- Label -->
+    <text x="170" y="156" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Binary Search</text>
     
-    <!-- Category label -->
-    <text x="639" y="46" text-anchor="middle"
-      style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.3em;fill:#5588e0;text-transform:uppercase">INFRA</text>
+    <!-- Track -->
+    <rect x="180" y="146" width="600" height="8" fill="#111118" rx="4"/>
     
-    <!-- Divider -->
-    <line x1="566" y1="52" x2="712" y2="52" stroke="#5588e0" stroke-width="0.5" opacity="0.3"/>
-    <!-- Kubernetes -->
-    <rect x="566" y="59" width="146" height="18" fill="#5588e0" rx="2" opacity="0.08"/>
-    <rect x="566" y="59" width="146" height="18" fill="none" rx="2" stroke="#5588e0" stroke-width="0.5" opacity="0.2"/>
-    <text x="574" y="72" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Kubernetes</text>
-    <!-- Terraform -->
-    <rect x="566" y="83" width="146" height="18" fill="#5588e0" rx="2" opacity="0.08"/>
-    <rect x="566" y="83" width="146" height="18" fill="none" rx="2" stroke="#5588e0" stroke-width="0.5" opacity="0.2"/>
-    <text x="574" y="96" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Terraform</text>
-    <!-- AWS EKS -->
-    <rect x="566" y="107" width="146" height="18" fill="#5588e0" rx="2" opacity="0.08"/>
-    <rect x="566" y="107" width="146" height="18" fill="none" rx="2" stroke="#5588e0" stroke-width="0.5" opacity="0.2"/>
-    <text x="574" y="120" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">AWS EKS</text>
-    <!-- Docker -->
-    <rect x="566" y="131" width="146" height="18" fill="#5588e0" rx="2" opacity="0.08"/>
-    <rect x="566" y="131" width="146" height="18" fill="none" rx="2" stroke="#5588e0" stroke-width="0.5" opacity="0.2"/>
-    <text x="574" y="144" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Docker</text>
-    <!-- Ray -->
-    <rect x="566" y="155" width="146" height="18" fill="#5588e0" rx="2" opacity="0.08"/>
-    <rect x="566" y="155" width="146" height="18" fill="none" rx="2" stroke="#5588e0" stroke-width="0.5" opacity="0.2"/>
-    <text x="574" y="168" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Ray</text>
-    <!-- GitHub Actions -->
-    <rect x="566" y="179" width="146" height="18" fill="#5588e0" rx="2" opacity="0.08"/>
-    <rect x="566" y="179" width="146" height="18" fill="none" rx="2" stroke="#5588e0" stroke-width="0.5" opacity="0.2"/>
-    <text x="574" y="192" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">GitHub Actions</text>
+    <!-- Bar -->
+    <rect x="180" y="146" width="0" height="8" fill="#4bc8c8" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="498" dur="0.6s" begin="0.44s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
+    
+    <!-- Pct label -->
+    <text x="686" y="156"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#4bc8c8;letter-spacing:0.05em;opacity:0">
+      83%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.94s" fill="freeze"/>
+    </text>
   </g>
+  <!-- Linked Lists -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.7s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" from="0,20" to="0,0" dur="0.5s" begin="0.7s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.52s" fill="freeze"/>
     
-    <!-- Card -->
-    <rect x="732" y="20" width="170" height="220" fill="#111118" rx="4"/>
-    <rect x="732" y="20" width="170" height="3" fill="#9966cc" rx="2" opacity="0.9"/>
+    <!-- Label -->
+    <text x="170" y="190" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Linked Lists</text>
     
-    <!-- Category label -->
-    <text x="817" y="46" text-anchor="middle"
-      style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.3em;fill:#9966cc;text-transform:uppercase">OBSERV.</text>
+    <!-- Track -->
+    <rect x="180" y="180" width="600" height="8" fill="#111118" rx="4"/>
     
-    <!-- Divider -->
-    <line x1="744" y1="52" x2="890" y2="52" stroke="#9966cc" stroke-width="0.5" opacity="0.3"/>
-    <!-- Prometheus -->
-    <rect x="744" y="59" width="146" height="18" fill="#9966cc" rx="2" opacity="0.08"/>
-    <rect x="744" y="59" width="146" height="18" fill="none" rx="2" stroke="#9966cc" stroke-width="0.5" opacity="0.2"/>
-    <text x="752" y="72" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Prometheus</text>
-    <!-- Grafana -->
-    <rect x="744" y="83" width="146" height="18" fill="#9966cc" rx="2" opacity="0.08"/>
-    <rect x="744" y="83" width="146" height="18" fill="none" rx="2" stroke="#9966cc" stroke-width="0.5" opacity="0.2"/>
-    <text x="752" y="96" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Grafana</text>
-    <!-- OpenTelemetry -->
-    <rect x="744" y="107" width="146" height="18" fill="#9966cc" rx="2" opacity="0.08"/>
-    <rect x="744" y="107" width="146" height="18" fill="none" rx="2" stroke="#9966cc" stroke-width="0.5" opacity="0.2"/>
-    <text x="752" y="120" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">OpenTelemetry</text>
-    <!-- LangSmith -->
-    <rect x="744" y="131" width="146" height="18" fill="#9966cc" rx="2" opacity="0.08"/>
-    <rect x="744" y="131" width="146" height="18" fill="none" rx="2" stroke="#9966cc" stroke-width="0.5" opacity="0.2"/>
-    <text x="752" y="144" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">LangSmith</text>
-    <!-- MLflow -->
-    <rect x="744" y="155" width="146" height="18" fill="#9966cc" rx="2" opacity="0.08"/>
-    <rect x="744" y="155" width="146" height="18" fill="none" rx="2" stroke="#9966cc" stroke-width="0.5" opacity="0.2"/>
-    <text x="752" y="168" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">MLflow</text>
-    <!-- Jaeger -->
-    <rect x="744" y="179" width="146" height="18" fill="#9966cc" rx="2" opacity="0.08"/>
-    <rect x="744" y="179" width="146" height="18" fill="none" rx="2" stroke="#9966cc" stroke-width="0.5" opacity="0.2"/>
-    <text x="752" y="192" style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.05em">Jaeger</text>
+    <!-- Bar -->
+    <rect x="180" y="180" width="0" height="8" fill="#5588e0" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="480" dur="0.6s" begin="0.52s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
+    
+    <!-- Pct label -->
+    <text x="668" y="190"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#5588e0;letter-spacing:0.05em;opacity:0">
+      80%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.02s" fill="freeze"/>
+    </text>
   </g>
-  <text x="461" y="14" text-anchor="middle"
-    style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.4em;fill:#4e4c48">
-    TECH STACK
-  </text>
+  <!-- Trees &amp; Tries -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.60s" fill="freeze"/>
+    
+    <!-- Label -->
+    <text x="170" y="224" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Trees &amp; Tries</text>
+    
+    <!-- Track -->
+    <rect x="180" y="214" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="214" width="0" height="8" fill="#9966cc" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="468" dur="0.6s" begin="0.60s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
+    
+    <!-- Pct label -->
+    <text x="656" y="224"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#9966cc;letter-spacing:0.05em;opacity:0">
+      78%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.10s" fill="freeze"/>
+    </text>
+  </g>
+  <!-- Graphs (BFS/DFS) -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.68s" fill="freeze"/>
+    
+    <!-- Label -->
+    <text x="170" y="258" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Graphs (BFS/DFS)</text>
+    
+    <!-- Track -->
+    <rect x="180" y="248" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="248" width="0" height="8" fill="#c9a84c" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="492" dur="0.6s" begin="0.68s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
+    
+    <!-- Pct label -->
+    <text x="680" y="258"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;letter-spacing:0.05em;opacity:0">
+      82%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.18s" fill="freeze"/>
+    </text>
+  </g>
+  <!-- Dynamic Programming -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.76s" fill="freeze"/>
+    
+    <!-- Label -->
+    <text x="170" y="292" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Dynamic Programming</text>
+    
+    <!-- Track -->
+    <rect x="180" y="282" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="282" width="0" height="8" fill="#e8c870" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="450" dur="0.6s" begin="0.76s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
+    
+    <!-- Pct label -->
+    <text x="638" y="292"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#e8c870;letter-spacing:0.05em;opacity:0">
+      75%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.26s" fill="freeze"/>
+    </text>
+  </g>
+  <!-- Heap / Priority Q -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.84s" fill="freeze"/>
+    
+    <!-- Label -->
+    <text x="170" y="326" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Heap / Priority Q</text>
+    
+    <!-- Track -->
+    <rect x="180" y="316" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="316" width="0" height="8" fill="#3ddc84" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="462" dur="0.6s" begin="0.84s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
+    
+    <!-- Pct label -->
+    <text x="650" y="326"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#3ddc84;letter-spacing:0.05em;opacity:0">
+      77%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.34s" fill="freeze"/>
+    </text>
+  </g>
+  <!-- Backtracking -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.92s" fill="freeze"/>
+    
+    <!-- Label -->
+    <text x="170" y="360" text-anchor="end"
+      style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Backtracking</text>
+    
+    <!-- Track -->
+    <rect x="180" y="350" width="600" height="8" fill="#111118" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="180" y="350" width="0" height="8" fill="#4bc8c8" rx="4" opacity="0.85">
+      <animate attributeName="width" from="0" to="432" dur="0.6s" begin="0.92s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    </rect>
+    
+    <!-- Pct label -->
+    <text x="620" y="360"
+      style="font-family:'Courier New',monospace;font-size:9px;fill:#4bc8c8;letter-spacing:0.05em;opacity:0">
+      72%
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.42s" fill="freeze"/>
+    </text>
+  </g>
 </svg>
