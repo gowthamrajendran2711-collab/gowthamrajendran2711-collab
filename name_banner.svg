@@ -1,82 +1,101 @@
-<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="170" viewBox="0 0 900 170" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap');
-      .name { font-family: "Bebas Neue", "Impact", sans-serif; font-size: 88px; letter-spacing: 0.08em; fill: none; }
-      .name-stroke { stroke: #c9a84c; stroke-width: 1.5; fill: none; }
-      .name-fill { fill: #e8e4dd; }
-      .sub { font-family: "DM Mono", "Courier New", monospace; font-size: 13px; fill: #9a9490; letter-spacing: 0.3em; }
-      .gold { fill: #c9a84c; }
-    </style>
-    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#c9a84c;stop-opacity:0" />
-      <stop offset="40%" style="stop-color:#e8c870;stop-opacity:1" />
-      <stop offset="60%" style="stop-color:#c9a84c;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#c9a84c;stop-opacity:0" />
+    <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   style="stop-color:#c9a84c;stop-opacity:0"/>
+      <stop offset="30%"  style="stop-color:#e8c870;stop-opacity:1"/>
+      <stop offset="70%"  style="stop-color:#c9a84c;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#c9a84c;stop-opacity:0"/>
     </linearGradient>
-    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#e8e4dd;stop-opacity:0.1"/>
-      <stop offset="50%" style="stop-color:#e8c870;stop-opacity:0.9"/>
-      <stop offset="100%" style="stop-color:#e8e4dd;stop-opacity:0.1"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="2.5s" repeatCount="indefinite"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:#0e0e16;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#06060a;stop-opacity:1"/>
     </linearGradient>
-    <mask id="textMask">
-      <text x="450" y="108" text-anchor="middle" class="name" style="font-size:88px;fill:white;font-family:Impact,sans-serif;letter-spacing:0.06em">GOWTHAM RAJENDRAN</text>
-    </mask>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="160" fill="#06060a" rx="8"/>
+  <rect width="900" height="170" fill="url(#bgGrad)" rx="8"/>
 
-  <!-- Decorative lines -->
-  <line x1="0" y1="130" x2="900" y2="130" stroke="#c9a84c" stroke-width="0.5" stroke-opacity="0.2"/>
-  <line x1="0" y1="32" x2="900" y2="32" stroke="#c9a84c" stroke-width="0.5" stroke-opacity="0.2"/>
+  <!-- Subtle grid texture lines -->
+  <line x1="0"   y1="85"  x2="900" y2="85"  stroke="#ffffff" stroke-width="0.3" stroke-opacity="0.02"/>
+  <line x1="450" y1="0"   x2="450" y2="170" stroke="#ffffff" stroke-width="0.3" stroke-opacity="0.02"/>
 
-  <!-- Corner accents -->
-  <path d="M0,0 L32,0 L32,4 L4,4 L4,32 L0,32 Z" fill="#c9a84c" opacity="0.6"/>
-  <path d="M900,0 L868,0 L868,4 L896,4 L896,32 L900,32 Z" fill="#c9a84c" opacity="0.6"/>
-  <path d="M0,160 L32,160 L32,156 L4,156 L4,128 L0,128 Z" fill="#c9a84c" opacity="0.6"/>
-  <path d="M900,160 L868,160 L868,156 L896,156 L896,128 L900,128 Z" fill="#c9a84c" opacity="0.6"/>
+  <!-- Top gold bar -->
+  <rect x="0" y="0" width="900" height="2" fill="url(#goldLine)"/>
 
-  <!-- Gold shimmer bar top -->
-  <rect x="0" y="0" width="900" height="3" fill="url(#goldGrad)"/>
+  <!-- Corner brackets — top left -->
+  <path d="M0,0 L28,0 L28,3 L3,3 L3,28 L0,28 Z" fill="#c9a84c" opacity="0.7"/>
+  <!-- Corner brackets — top right -->
+  <path d="M900,0 L872,0 L872,3 L897,3 L897,28 L900,28 Z" fill="#c9a84c" opacity="0.7"/>
+  <!-- Corner brackets — bottom left -->
+  <path d="M0,170 L28,170 L28,167 L3,167 L3,142 L0,142 Z" fill="#c9a84c" opacity="0.7"/>
+  <!-- Corner brackets — bottom right -->
+  <path d="M900,170 L872,170 L872,167 L897,167 L897,142 L900,142 Z" fill="#c9a84c" opacity="0.7"/>
 
-  <!-- Eyebrow text -->
-  <text x="450" y="24" text-anchor="middle" class="sub" style="font-size:9px;letter-spacing:0.5em;text-transform:uppercase;fill:#4e4c48">
-    AI ENGINEER  ·  ML INFRASTRUCTURE  ·  DISTRIBUTED SYSTEMS
+  <!-- Eyebrow: small label above name -->
+  <text x="450" y="32" text-anchor="middle"
+    style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.55em;fill:#c9a84c;opacity:0">
+    ✦  AI ENGINEER  ·  IEEE PUBLISHED  ·  OPEN TO WORK  ✦
+    <animate attributeName="opacity" from="0" to="0.6" dur="0.8s" begin="0.1s" fill="freeze"/>
   </text>
 
-  <!-- Main name - layered for effect -->
-  <!-- Shadow layer -->
-  <text x="453" y="111" text-anchor="middle" style="font-family:Impact,'Arial Black',sans-serif;font-size:82px;letter-spacing:0.06em;fill:#c9a84c;opacity:0.08">GOWTHAM RAJENDRAN</text>
-
-  <!-- Base fill layer - fades in -->
-  <text x="450" y="108" text-anchor="middle" style="font-family:Impact,'Arial Black',sans-serif;font-size:82px;letter-spacing:0.06em;fill:#e8e4dd;opacity:0">
+  <!-- Main name — crisp white, large, clean -->
+  <text x="450" y="105" text-anchor="middle"
+    style="font-family:Impact,'Arial Black',sans-serif;font-size:74px;letter-spacing:0.07em;fill:#ffffff;opacity:0">
     GOWTHAM RAJENDRAN
-    <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.3s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.7s" begin="0.3s" fill="freeze"/>
   </text>
 
-  <!-- Gold shimmer sweep over name -->
-  <rect x="0" y="30" width="900" height="90" fill="url(#shimmer)" mask="url(#textMask)">
-    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.2s" fill="freeze"/>
-  </rect>
-
-  <!-- Underline animation -->
-  <line x1="450" y1="118" x2="450" y2="118" stroke="#c9a84c" stroke-width="1.5" stroke-opacity="0.7">
-    <animate attributeName="x1" from="450" to="80" dur="0.8s" begin="1.0s" fill="freeze"/>
-    <animate attributeName="x2" from="450" to="820" dur="0.8s" begin="1.0s" fill="freeze"/>
+  <!-- Gold underline — animates outward from center -->
+  <line x1="450" y1="113" x2="450" y2="113"
+    stroke="url(#goldLine)" stroke-width="1.5">
+    <animate attributeName="x1" from="450" to="90"  dur="0.7s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    <animate attributeName="x2" from="450" to="810" dur="0.7s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
   </line>
 
-  <!-- Bottom tagline -->
-  <text x="450" y="146" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:11px;letter-spacing:0.25em;fill:#4e4c48;opacity:0">
-    BUILDING AI SYSTEMS THAT SERVE AT SCALE
-    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.6s" fill="freeze"/>
+  <!-- Role pills — fade in one by one -->
+  <!-- Pill 1: LLM Infrastructure -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.1s" fill="freeze"/>
+    <rect x="178" y="126" width="134" height="20" fill="#c9a84c" rx="2" opacity="0.12"/>
+    <rect x="178" y="126" width="134" height="20" fill="none" rx="2" stroke="#c9a84c" stroke-width="0.6" opacity="0.4"/>
+    <text x="245" y="140" text-anchor="middle"
+      style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.2em;fill:#c9a84c">LLM INFRASTRUCTURE</text>
+  </g>
+
+  <!-- Pill 2: RAG Systems -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.25s" fill="freeze"/>
+    <rect x="322" y="126" width="88" height="20" fill="#c9a84c" rx="2" opacity="0.12"/>
+    <rect x="322" y="126" width="88" height="20" fill="none" rx="2" stroke="#c9a84c" stroke-width="0.6" opacity="0.4"/>
+    <text x="366" y="140" text-anchor="middle"
+      style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.2em;fill:#c9a84c">RAG SYSTEMS</text>
+  </g>
+
+  <!-- Pill 3: Multi-Agent -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.40s" fill="freeze"/>
+    <rect x="420" y="126" width="96" height="20" fill="#c9a84c" rx="2" opacity="0.12"/>
+    <rect x="420" y="126" width="96" height="20" fill="none" rx="2" stroke="#c9a84c" stroke-width="0.6" opacity="0.4"/>
+    <text x="468" y="140" text-anchor="middle"
+      style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.2em;fill:#c9a84c">MULTI-AGENT</text>
+  </g>
+
+  <!-- Pill 4: MLOps / K8s -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.55s" fill="freeze"/>
+    <rect x="526" y="126" width="86" height="20" fill="#c9a84c" rx="2" opacity="0.12"/>
+    <rect x="526" y="126" width="86" height="20" fill="none" rx="2" stroke="#c9a84c" stroke-width="0.6" opacity="0.4"/>
+    <text x="569" y="140" text-anchor="middle"
+      style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.2em;fill:#c9a84c">MLOPS · K8S</text>
+  </g>
+
+  <!-- Tagline -->
+  <text x="450" y="162" text-anchor="middle"
+    style="font-family:'Courier New',monospace;font-size:8px;letter-spacing:0.3em;fill:#4e4c48;opacity:0">
+    BUILDING AI SYSTEMS THAT SERVE AT SCALE · MSC COMPUTER SCIENCE · STRATHCLYDE
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.8s" fill="freeze"/>
   </text>
 
-  <!-- Gold shimmer bar bottom -->
-  <rect x="0" y="157" width="900" height="3" fill="url(#goldGrad)"/>
+  <!-- Bottom gold bar -->
+  <rect x="0" y="168" width="900" height="2" fill="url(#goldLine)"/>
 </svg>
