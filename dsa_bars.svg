@@ -1,241 +1,216 @@
-<svg width="860" height="400" viewBox="0 0 860 400" xmlns="http://www.w3.org/2000/svg">
-  <rect width="860" height="400" fill="#06060a" rx="8"/>
-  
+<svg width="860" height="420" viewBox="0 0 860 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="420" fill="#06060a" rx="8"/>
+
   <!-- Title -->
   <text x="430" y="20" text-anchor="middle"
-    style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.4em;fill:#4e4c48">DSA PROFICIENCY  ·  500+ PROBLEMS SOLVED</text>
-  
-  <!-- 500+ big number -->
-  <text x="830" y="30" text-anchor="end"
-    style="font-family:Impact,'Arial Black',sans-serif;font-size:28px;fill:#c9a84c;opacity:0.15">500+</text>
-  <!-- Arrays &amp; Hashing -->
+    style="font-family:'Courier New',monospace;font-size:9px;letter-spacing:0.4em;fill:#4e4c48">DSA JOURNEY  ·  500+ PROBLEMS  ·  STRIVER A2Z</text>
+
+  <!-- Column headers -->
+  <text x="180" y="36" style="font-family:'Courier New',monospace;font-size:8px;letter-spacing:0.15em;fill:#4e4c48">TOPIC</text>
+  <text x="390" y="36" style="font-family:'Courier New',monospace;font-size:8px;letter-spacing:0.15em;fill:#4e4c48">SOLVED</text>
+  <text x="500" y="36" style="font-family:'Courier New',monospace;font-size:8px;letter-spacing:0.15em;fill:#4e4c48">STATUS</text>
+
+  <!-- Divider -->
+  <line x1="20" y1="40" x2="840" y2="40" stroke="#1a1a24" stroke-width="1"/>
+
+  <!--
+    Layout per row:
+      y_base = 44 + (row * 38)
+      label x=170 text-anchor=end  y=y_base+14
+      count bar: x=390, y=y_base+7, h=10, track w=90
+      status badge: x=500, y=y_base+5
+  -->
+
+  <!-- Row 1: Arrays & Hashing  · 80 solved · Comfortable -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.20s" fill="freeze"/>
-    
-    <!-- Label -->
-    <text x="170" y="54" text-anchor="end"
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.10s" fill="freeze"/>
+    <rect x="20" y="44" width="820" height="34" fill="#111118" rx="3"/>
+    <text x="170" y="66" text-anchor="end"
       style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Arrays &amp; Hashing</text>
-    
-    <!-- Track -->
-    <rect x="180" y="44" width="600" height="8" fill="#111118" rx="4"/>
-    
-    <!-- Bar -->
-    <rect x="180" y="44" width="0" height="8" fill="#c9a84c" rx="4" opacity="0.85">
-      <animate attributeName="width" from="0" to="552" dur="0.6s" begin="0.20s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    <!-- solved count bar track -->
+    <rect x="390" y="54" width="90" height="6" fill="#0d0d12" rx="3"/>
+    <rect x="390" y="54" width="0" height="6" fill="#c9a84c" rx="3" opacity="0.9">
+      <animate attributeName="width" from="0" to="90" dur="0.5s" begin="0.10s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
     </rect>
-    
-    <!-- Pct label -->
-    <text x="740" y="54"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;letter-spacing:0.05em;opacity:0">
-      92%
-      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.70s" fill="freeze"/>
+    <text x="488" y="63" style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;letter-spacing:0.04em;opacity:0">
+      80
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.55s" fill="freeze"/>
     </text>
+    <!-- status badge -->
+    <rect x="500" y="52" width="82" height="14" fill="#c9a84c" rx="2" opacity="0.12"/>
+    <text x="541" y="63" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:8px;letter-spacing:0.12em;fill:#c9a84c">COMFORTABLE</text>
   </g>
-  <!-- Two Pointers -->
+
+  <!-- Row 2: Two Pointers · 35 solved · Comfortable -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.28s" fill="freeze"/>
-    
-    <!-- Label -->
-    <text x="170" y="88" text-anchor="end"
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.18s" fill="freeze"/>
+    <rect x="20" y="82" width="820" height="34" fill="#111118" rx="3"/>
+    <text x="170" y="104" text-anchor="end"
       style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Two Pointers</text>
-    
-    <!-- Track -->
-    <rect x="180" y="78" width="600" height="8" fill="#111118" rx="4"/>
-    
-    <!-- Bar -->
-    <rect x="180" y="78" width="0" height="8" fill="#e8c870" rx="4" opacity="0.85">
-      <animate attributeName="width" from="0" to="528" dur="0.6s" begin="0.28s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    <rect x="390" y="92" width="90" height="6" fill="#0d0d12" rx="3"/>
+    <rect x="390" y="92" width="0" height="6" fill="#e8c870" rx="3" opacity="0.9">
+      <animate attributeName="width" from="0" to="39" dur="0.5s" begin="0.18s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
     </rect>
-    
-    <!-- Pct label -->
-    <text x="716" y="88"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#e8c870;letter-spacing:0.05em;opacity:0">
-      88%
-      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.78s" fill="freeze"/>
+    <text x="437" y="101" style="font-family:'Courier New',monospace;font-size:9px;fill:#e8c870;letter-spacing:0.04em;opacity:0">
+      35
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.63s" fill="freeze"/>
     </text>
+    <rect x="500" y="90" width="82" height="14" fill="#c9a84c" rx="2" opacity="0.12"/>
+    <text x="541" y="101" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:8px;letter-spacing:0.12em;fill:#c9a84c">COMFORTABLE</text>
   </g>
-  <!-- Sliding Window -->
+
+  <!-- Row 3: Sliding Window · 30 solved · Comfortable -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.36s" fill="freeze"/>
-    
-    <!-- Label -->
-    <text x="170" y="122" text-anchor="end"
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.26s" fill="freeze"/>
+    <rect x="20" y="120" width="820" height="34" fill="#111118" rx="3"/>
+    <text x="170" y="142" text-anchor="end"
       style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Sliding Window</text>
-    
-    <!-- Track -->
-    <rect x="180" y="112" width="600" height="8" fill="#111118" rx="4"/>
-    
-    <!-- Bar -->
-    <rect x="180" y="112" width="0" height="8" fill="#3ddc84" rx="4" opacity="0.85">
-      <animate attributeName="width" from="0" to="510" dur="0.6s" begin="0.36s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    <rect x="390" y="130" width="90" height="6" fill="#0d0d12" rx="3"/>
+    <rect x="390" y="130" width="0" height="6" fill="#3ddc84" rx="3" opacity="0.9">
+      <animate attributeName="width" from="0" to="34" dur="0.5s" begin="0.26s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
     </rect>
-    
-    <!-- Pct label -->
-    <text x="698" y="122"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#3ddc84;letter-spacing:0.05em;opacity:0">
-      85%
-      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.86s" fill="freeze"/>
+    <text x="432" y="139" style="font-family:'Courier New',monospace;font-size:9px;fill:#3ddc84;letter-spacing:0.04em;opacity:0">
+      30
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.71s" fill="freeze"/>
     </text>
+    <rect x="500" y="128" width="82" height="14" fill="#c9a84c" rx="2" opacity="0.12"/>
+    <text x="541" y="139" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:8px;letter-spacing:0.12em;fill:#c9a84c">COMFORTABLE</text>
   </g>
-  <!-- Binary Search -->
+
+  <!-- Row 4: Binary Search · 40 solved · Comfortable -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.44s" fill="freeze"/>
-    
-    <!-- Label -->
-    <text x="170" y="156" text-anchor="end"
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.34s" fill="freeze"/>
+    <rect x="20" y="158" width="820" height="34" fill="#111118" rx="3"/>
+    <text x="170" y="180" text-anchor="end"
       style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Binary Search</text>
-    
-    <!-- Track -->
-    <rect x="180" y="146" width="600" height="8" fill="#111118" rx="4"/>
-    
-    <!-- Bar -->
-    <rect x="180" y="146" width="0" height="8" fill="#4bc8c8" rx="4" opacity="0.85">
-      <animate attributeName="width" from="0" to="498" dur="0.6s" begin="0.44s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    <rect x="390" y="168" width="90" height="6" fill="#0d0d12" rx="3"/>
+    <rect x="390" y="168" width="0" height="6" fill="#4bc8c8" rx="3" opacity="0.9">
+      <animate attributeName="width" from="0" to="45" dur="0.5s" begin="0.34s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
     </rect>
-    
-    <!-- Pct label -->
-    <text x="686" y="156"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#4bc8c8;letter-spacing:0.05em;opacity:0">
-      83%
-      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.94s" fill="freeze"/>
+    <text x="443" y="177" style="font-family:'Courier New',monospace;font-size:9px;fill:#4bc8c8;letter-spacing:0.04em;opacity:0">
+      40
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.79s" fill="freeze"/>
     </text>
+    <rect x="500" y="166" width="82" height="14" fill="#c9a84c" rx="2" opacity="0.12"/>
+    <text x="541" y="177" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:8px;letter-spacing:0.12em;fill:#c9a84c">COMFORTABLE</text>
   </g>
-  <!-- Linked Lists -->
+
+  <!-- Row 5: Linked Lists · 25 solved · Learning -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.52s" fill="freeze"/>
-    
-    <!-- Label -->
-    <text x="170" y="190" text-anchor="end"
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.42s" fill="freeze"/>
+    <rect x="20" y="196" width="820" height="34" fill="#111118" rx="3"/>
+    <text x="170" y="218" text-anchor="end"
       style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Linked Lists</text>
-    
-    <!-- Track -->
-    <rect x="180" y="180" width="600" height="8" fill="#111118" rx="4"/>
-    
-    <!-- Bar -->
-    <rect x="180" y="180" width="0" height="8" fill="#5588e0" rx="4" opacity="0.85">
-      <animate attributeName="width" from="0" to="480" dur="0.6s" begin="0.52s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    <rect x="390" y="206" width="90" height="6" fill="#0d0d12" rx="3"/>
+    <rect x="390" y="206" width="0" height="6" fill="#5588e0" rx="3" opacity="0.9">
+      <animate attributeName="width" from="0" to="28" dur="0.5s" begin="0.42s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
     </rect>
-    
-    <!-- Pct label -->
-    <text x="668" y="190"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#5588e0;letter-spacing:0.05em;opacity:0">
-      80%
-      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.02s" fill="freeze"/>
+    <text x="426" y="215" style="font-family:'Courier New',monospace;font-size:9px;fill:#5588e0;letter-spacing:0.04em;opacity:0">
+      25
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.87s" fill="freeze"/>
     </text>
+    <rect x="500" y="204" width="66" height="14" fill="#5588e0" rx="2" opacity="0.12"/>
+    <text x="533" y="215" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:8px;letter-spacing:0.12em;fill:#5588e0">LEARNING</text>
   </g>
-  <!-- Trees &amp; Tries -->
+
+  <!-- Row 6: Trees &amp; Tries · 45 solved · Learning -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.60s" fill="freeze"/>
-    
-    <!-- Label -->
-    <text x="170" y="224" text-anchor="end"
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.50s" fill="freeze"/>
+    <rect x="20" y="234" width="820" height="34" fill="#111118" rx="3"/>
+    <text x="170" y="256" text-anchor="end"
       style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Trees &amp; Tries</text>
-    
-    <!-- Track -->
-    <rect x="180" y="214" width="600" height="8" fill="#111118" rx="4"/>
-    
-    <!-- Bar -->
-    <rect x="180" y="214" width="0" height="8" fill="#9966cc" rx="4" opacity="0.85">
-      <animate attributeName="width" from="0" to="468" dur="0.6s" begin="0.60s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    <rect x="390" y="244" width="90" height="6" fill="#0d0d12" rx="3"/>
+    <rect x="390" y="244" width="0" height="6" fill="#9966cc" rx="3" opacity="0.9">
+      <animate attributeName="width" from="0" to="50" dur="0.5s" begin="0.50s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
     </rect>
-    
-    <!-- Pct label -->
-    <text x="656" y="224"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#9966cc;letter-spacing:0.05em;opacity:0">
-      78%
-      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.10s" fill="freeze"/>
+    <text x="448" y="253" style="font-family:'Courier New',monospace;font-size:9px;fill:#9966cc;letter-spacing:0.04em;opacity:0">
+      45
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.95s" fill="freeze"/>
     </text>
+    <rect x="500" y="242" width="66" height="14" fill="#5588e0" rx="2" opacity="0.12"/>
+    <text x="533" y="253" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:8px;letter-spacing:0.12em;fill:#5588e0">LEARNING</text>
   </g>
-  <!-- Graphs (BFS/DFS) -->
+
+  <!-- Row 7: Graphs BFS/DFS · 50 solved · Learning -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.68s" fill="freeze"/>
-    
-    <!-- Label -->
-    <text x="170" y="258" text-anchor="end"
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.58s" fill="freeze"/>
+    <rect x="20" y="272" width="820" height="34" fill="#111118" rx="3"/>
+    <text x="170" y="294" text-anchor="end"
       style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Graphs (BFS/DFS)</text>
-    
-    <!-- Track -->
-    <rect x="180" y="248" width="600" height="8" fill="#111118" rx="4"/>
-    
-    <!-- Bar -->
-    <rect x="180" y="248" width="0" height="8" fill="#c9a84c" rx="4" opacity="0.85">
-      <animate attributeName="width" from="0" to="492" dur="0.6s" begin="0.68s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    <rect x="390" y="282" width="90" height="6" fill="#0d0d12" rx="3"/>
+    <rect x="390" y="282" width="0" height="6" fill="#c9a84c" rx="3" opacity="0.9">
+      <animate attributeName="width" from="0" to="56" dur="0.5s" begin="0.58s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
     </rect>
-    
-    <!-- Pct label -->
-    <text x="680" y="258"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;letter-spacing:0.05em;opacity:0">
-      82%
-      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.18s" fill="freeze"/>
+    <text x="454" y="291" style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;letter-spacing:0.04em;opacity:0">
+      50
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.03s" fill="freeze"/>
     </text>
+    <rect x="500" y="280" width="66" height="14" fill="#5588e0" rx="2" opacity="0.12"/>
+    <text x="533" y="291" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:8px;letter-spacing:0.12em;fill:#5588e0">LEARNING</text>
   </g>
-  <!-- Dynamic Programming -->
+
+  <!-- Row 8: Dynamic Programming · 60 solved · In Progress -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.76s" fill="freeze"/>
-    
-    <!-- Label -->
-    <text x="170" y="292" text-anchor="end"
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.66s" fill="freeze"/>
+    <rect x="20" y="310" width="820" height="34" fill="#111118" rx="3"/>
+    <text x="170" y="332" text-anchor="end"
       style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Dynamic Programming</text>
-    
-    <!-- Track -->
-    <rect x="180" y="282" width="600" height="8" fill="#111118" rx="4"/>
-    
-    <!-- Bar -->
-    <rect x="180" y="282" width="0" height="8" fill="#e8c870" rx="4" opacity="0.85">
-      <animate attributeName="width" from="0" to="450" dur="0.6s" begin="0.76s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    <rect x="390" y="320" width="90" height="6" fill="#0d0d12" rx="3"/>
+    <rect x="390" y="320" width="0" height="6" fill="#e8c870" rx="3" opacity="0.9">
+      <animate attributeName="width" from="0" to="68" dur="0.5s" begin="0.66s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
     </rect>
-    
-    <!-- Pct label -->
-    <text x="638" y="292"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#e8c870;letter-spacing:0.05em;opacity:0">
-      75%
-      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.26s" fill="freeze"/>
+    <text x="466" y="329" style="font-family:'Courier New',monospace;font-size:9px;fill:#e8c870;letter-spacing:0.04em;opacity:0">
+      60
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.11s" fill="freeze"/>
     </text>
+    <rect x="500" y="318" width="80" height="14" fill="#e8c870" rx="2" opacity="0.10"/>
+    <text x="540" y="329" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:8px;letter-spacing:0.12em;fill:#e8c870">IN PROGRESS</text>
   </g>
-  <!-- Heap / Priority Q -->
+
+  <!-- Row 9: Heap / Priority Q · 20 solved · In Progress -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.84s" fill="freeze"/>
-    
-    <!-- Label -->
-    <text x="170" y="326" text-anchor="end"
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.74s" fill="freeze"/>
+    <rect x="20" y="348" width="820" height="34" fill="#111118" rx="3"/>
+    <text x="170" y="370" text-anchor="end"
       style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Heap / Priority Q</text>
-    
-    <!-- Track -->
-    <rect x="180" y="316" width="600" height="8" fill="#111118" rx="4"/>
-    
-    <!-- Bar -->
-    <rect x="180" y="316" width="0" height="8" fill="#3ddc84" rx="4" opacity="0.85">
-      <animate attributeName="width" from="0" to="462" dur="0.6s" begin="0.84s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    <rect x="390" y="358" width="90" height="6" fill="#0d0d12" rx="3"/>
+    <rect x="390" y="358" width="0" height="6" fill="#3ddc84" rx="3" opacity="0.9">
+      <animate attributeName="width" from="0" to="22" dur="0.5s" begin="0.74s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
     </rect>
-    
-    <!-- Pct label -->
-    <text x="650" y="326"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#3ddc84;letter-spacing:0.05em;opacity:0">
-      77%
-      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.34s" fill="freeze"/>
+    <text x="420" y="367" style="font-family:'Courier New',monospace;font-size:9px;fill:#3ddc84;letter-spacing:0.04em;opacity:0">
+      20
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.19s" fill="freeze"/>
     </text>
+    <rect x="500" y="356" width="80" height="14" fill="#e8c870" rx="2" opacity="0.10"/>
+    <text x="540" y="367" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:8px;letter-spacing:0.12em;fill:#e8c870">IN PROGRESS</text>
   </g>
-  <!-- Backtracking -->
+
+  <!-- Row 10: Backtracking · 15 solved · Up Next -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.92s" fill="freeze"/>
-    
-    <!-- Label -->
-    <text x="170" y="360" text-anchor="end"
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.82s" fill="freeze"/>
+    <rect x="20" y="386" width="820" height="34" fill="#111118" rx="3"/>
+    <text x="170" y="408" text-anchor="end"
       style="font-family:'Courier New',monospace;font-size:10px;fill:#9a9490;letter-spacing:0.04em">Backtracking</text>
-    
-    <!-- Track -->
-    <rect x="180" y="350" width="600" height="8" fill="#111118" rx="4"/>
-    
-    <!-- Bar -->
-    <rect x="180" y="350" width="0" height="8" fill="#4bc8c8" rx="4" opacity="0.85">
-      <animate attributeName="width" from="0" to="432" dur="0.6s" begin="0.92s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+    <rect x="390" y="396" width="90" height="6" fill="#0d0d12" rx="3"/>
+    <rect x="390" y="396" width="0" height="6" fill="#4bc8c8" rx="3" opacity="0.9">
+      <animate attributeName="width" from="0" to="17" dur="0.5s" begin="0.82s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
     </rect>
-    
-    <!-- Pct label -->
-    <text x="620" y="360"
-      style="font-family:'Courier New',monospace;font-size:9px;fill:#4bc8c8;letter-spacing:0.05em;opacity:0">
-      72%
-      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.42s" fill="freeze"/>
+    <text x="415" y="405" style="font-family:'Courier New',monospace;font-size:9px;fill:#4bc8c8;letter-spacing:0.04em;opacity:0">
+      15
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.27s" fill="freeze"/>
     </text>
+    <rect x="500" y="394" width="58" height="14" fill="#4e4c48" rx="2" opacity="0.25"/>
+    <text x="529" y="405" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:8px;letter-spacing:0.12em;fill:#9a9490">UP NEXT</text>
   </g>
+
+  <!-- Legend -->
+  <rect x="650" y="394" width="10" height="6" fill="#c9a84c" rx="1" opacity="0.9"/>
+  <text x="663" y="401" style="font-family:'Courier New',monospace;font-size:7px;fill:#4e4c48;letter-spacing:0.1em">COMFORTABLE</text>
+  <rect x="650" y="404" width="10" height="6" fill="#5588e0" rx="1" opacity="0.9"/>
+  <text x="663" y="411" style="font-family:'Courier New',monospace;font-size:7px;fill:#4e4c48;letter-spacing:0.1em">LEARNING</text>
+  <rect x="740" y="394" width="10" height="6" fill="#e8c870" rx="1" opacity="0.9"/>
+  <text x="753" y="401" style="font-family:'Courier New',monospace;font-size:7px;fill:#4e4c48;letter-spacing:0.1em">IN PROGRESS</text>
+  <rect x="740" y="404" width="10" height="6" fill="#4e4c48" rx="1" opacity="0.9"/>
+  <text x="753" y="411" style="font-family:'Courier New',monospace;font-size:7px;fill:#4e4c48;letter-spacing:0.1em">UP NEXT</text>
+
 </svg>
