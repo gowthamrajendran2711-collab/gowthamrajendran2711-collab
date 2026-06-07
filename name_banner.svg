@@ -1,0 +1,82 @@
+<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap');
+      .name { font-family: "Bebas Neue", "Impact", sans-serif; font-size: 88px; letter-spacing: 0.08em; fill: none; }
+      .name-stroke { stroke: #c9a84c; stroke-width: 1.5; fill: none; }
+      .name-fill { fill: #e8e4dd; }
+      .sub { font-family: "DM Mono", "Courier New", monospace; font-size: 13px; fill: #9a9490; letter-spacing: 0.3em; }
+      .gold { fill: #c9a84c; }
+    </style>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a84c;stop-opacity:0" />
+      <stop offset="40%" style="stop-color:#e8c870;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#c9a84c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c9a84c;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e8e4dd;stop-opacity:0.1"/>
+      <stop offset="50%" style="stop-color:#e8c870;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#e8e4dd;stop-opacity:0.1"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="2.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <mask id="textMask">
+      <text x="450" y="108" text-anchor="middle" class="name" style="font-size:88px;fill:white;font-family:Impact,sans-serif;letter-spacing:0.06em">GOWTHAM RAJENDRAN</text>
+    </mask>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="160" fill="#06060a" rx="8"/>
+
+  <!-- Decorative lines -->
+  <line x1="0" y1="130" x2="900" y2="130" stroke="#c9a84c" stroke-width="0.5" stroke-opacity="0.2"/>
+  <line x1="0" y1="32" x2="900" y2="32" stroke="#c9a84c" stroke-width="0.5" stroke-opacity="0.2"/>
+
+  <!-- Corner accents -->
+  <path d="M0,0 L32,0 L32,4 L4,4 L4,32 L0,32 Z" fill="#c9a84c" opacity="0.6"/>
+  <path d="M900,0 L868,0 L868,4 L896,4 L896,32 L900,32 Z" fill="#c9a84c" opacity="0.6"/>
+  <path d="M0,160 L32,160 L32,156 L4,156 L4,128 L0,128 Z" fill="#c9a84c" opacity="0.6"/>
+  <path d="M900,160 L868,160 L868,156 L896,156 L896,128 L900,128 Z" fill="#c9a84c" opacity="0.6"/>
+
+  <!-- Gold shimmer bar top -->
+  <rect x="0" y="0" width="900" height="3" fill="url(#goldGrad)"/>
+
+  <!-- Eyebrow text -->
+  <text x="450" y="24" text-anchor="middle" class="sub" style="font-size:9px;letter-spacing:0.5em;text-transform:uppercase;fill:#4e4c48">
+    AI ENGINEER  ·  ML INFRASTRUCTURE  ·  DISTRIBUTED SYSTEMS
+  </text>
+
+  <!-- Main name - layered for effect -->
+  <!-- Shadow layer -->
+  <text x="453" y="111" text-anchor="middle" style="font-family:Impact,'Arial Black',sans-serif;font-size:82px;letter-spacing:0.06em;fill:#c9a84c;opacity:0.08">GOWTHAM RAJENDRAN</text>
+
+  <!-- Base fill layer - fades in -->
+  <text x="450" y="108" text-anchor="middle" style="font-family:Impact,'Arial Black',sans-serif;font-size:82px;letter-spacing:0.06em;fill:#e8e4dd;opacity:0">
+    GOWTHAM RAJENDRAN
+    <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.3s" fill="freeze"/>
+  </text>
+
+  <!-- Gold shimmer sweep over name -->
+  <rect x="0" y="30" width="900" height="90" fill="url(#shimmer)" mask="url(#textMask)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.2s" fill="freeze"/>
+  </rect>
+
+  <!-- Underline animation -->
+  <line x1="450" y1="118" x2="450" y2="118" stroke="#c9a84c" stroke-width="1.5" stroke-opacity="0.7">
+    <animate attributeName="x1" from="450" to="80" dur="0.8s" begin="1.0s" fill="freeze"/>
+    <animate attributeName="x2" from="450" to="820" dur="0.8s" begin="1.0s" fill="freeze"/>
+  </line>
+
+  <!-- Bottom tagline -->
+  <text x="450" y="146" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:11px;letter-spacing:0.25em;fill:#4e4c48;opacity:0">
+    BUILDING AI SYSTEMS THAT SERVE AT SCALE
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.6s" fill="freeze"/>
+  </text>
+
+  <!-- Gold shimmer bar bottom -->
+  <rect x="0" y="157" width="900" height="3" fill="url(#goldGrad)"/>
+</svg>
