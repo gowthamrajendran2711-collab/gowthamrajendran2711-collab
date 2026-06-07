@@ -10,7 +10,7 @@
      ANIMATED NAME BANNER
 ════════════════════════════════════════════════ -->
 
-![Name Banner](./assets/name_banner.svg)
+![Name Banner](./name_banner.svg)
 
 <!-- ═══════════════════════════════════════════════
      TYPEWRITER — roles cycle through
@@ -58,7 +58,7 @@ gowtham = {
 
 <div align="center">
 
-![Achievements](./assets/achievements.svg)
+![Achievements](./achievements.svg)
 
 </div>
 
@@ -70,7 +70,7 @@ gowtham = {
 
 <div align="center">
 
-![Tech Stack](./assets/skills_cards.svg)
+![Tech Stack](./skills_cards.svg)
 
 </div>
 
@@ -82,7 +82,7 @@ gowtham = {
 
 <div align="center">
 
-![DSA Proficiency](./assets/dsa_bars.svg)
+![DSA Proficiency](./dsa_bars.svg)
 
 </div>
 
@@ -216,22 +216,6 @@ Scientific benchmark: Qdrant vs Pinecone vs Weaviate vs Chroma at 100K–100M ve
 
 ---
 
-<!-- ═══════════════════════════════════════════════
-     GITHUB STATS
-════════════════════════════════════════════════ -->
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=gowthamrajendran2711-collab&show_icons=true&theme=dark&bg_color=06060a&title_color=c9a84c&icon_color=c9a84c&text_color=e8e4dd&border_color=1a1a24&count_private=true&hide_border=false&rank_icon=github"/>
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowthamrajendran2711-collab&layout=compact&theme=dark&bg_color=06060a&title_color=c9a84c&text_color=e8e4dd&border_color=1a1a24&langs_count=7"/>
-
-<img width="400" src="https://streak-stats.demolab.com?user=gowthamrajendran2711-collab&theme=dark&background=06060a&border=1a1a24&ring=c9a84c&fire=e8c870&currStreakLabel=c9a84c&sideLabels=9a9490&dates=4e4c48&currStreakNum=e8e4dd&sideNums=e8e4dd"/>
-
-</div>
-
----
 
 <!-- ═══════════════════════════════════════════════
      EXPERIENCE TIMELINE
